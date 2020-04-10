@@ -1,23 +1,8 @@
-.clear {
-  clear: both;
+body {
+  font-family: 'Didact Gothic', sans-serif;
 }
-nav {
-  float: left;
-  color: #FF0000;
-  font-family: Helvetica, sans-serif;
-}
-nav ul li ul.sub-nav {
-  display: none;
-}
-.box {
-  width: 200px;
-  height: 200px;
-  background: red;
-}
-.box2 {
-  width: 200px;
-  height: 200px;
-  background: gray;
+.roundedBtn {
+  border-radius: 25px;
 }
 /*# sourceMappingURL=main.css.map */
 h1 {
