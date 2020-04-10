@@ -46,7 +46,15 @@ body {
 
 .customNav {
   min-height: 4rem;
+  .active {
+    a {
+      color: @primaryColor !important;
+      text-transform: uppercase;
+    }
+    
+  }
 }
+
 
 .jumbotron {
   .form-check {
@@ -81,6 +89,23 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: underline;
+  }
+}
+
+.video {
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  img {
+    cursor: pointer;
+  }
+
+}
+
+.quote {
+  p {
+    font-size: 2rem;
   }
 }
 
