@@ -18,16 +18,77 @@
 //   height: 200px;
 //   background: gray; }
 
+@import "variables";
+
+
 body {
   font-family: 'Didact Gothic', sans-serif;
 }
 
-.roundedBtn {
+.mainBtn {
   border-radius: 25px;
+  background-color: @primaryColor;
+  border: none;
+
+  &:hover {
+    background-color: darken(@primaryColor, 10%);
+  }
+
 }
+
+
 
 /*# sourceMappingURL=main.css.map */
 
-h1 {
-  color: red;
+.primaryColor {
+  color: @primaryColor;
+}
+
+.customNav {
+  min-height: 4rem;
+}
+
+.jumbotron {
+  .form-check {
+    color: @primaryColor;
+  }
+}
+
+.custom-checkbox .custom-control-label::before {
+  background: transparent;
+  border: 1px solid @primaryColor;
+  padding: 0.6rem;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+  background-color: @primaryColor;
+  padding: 0.6rem;
+  
+}
+
+.custom-control-label {
+  color: @primaryColor;
+}
+
+.info {
+
+  h2 {
+    font-weight: bold;
+  }
+
+  a {
+    color: @primaryColor;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+
+// Media Query
+
+@media @min992 {
+  h1 {
+    font-size: 4rem;
+  }
 }

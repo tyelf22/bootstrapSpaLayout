@@ -1,10 +1,47 @@
 body {
   font-family: 'Didact Gothic', sans-serif;
 }
-.roundedBtn {
+.mainBtn {
   border-radius: 25px;
+  background-color: #523BE4;
+  border: none;
+}
+.mainBtn:hover {
+  background-color: #351dcf;
 }
 /*# sourceMappingURL=main.css.map */
-h1 {
-  color: red;
+.primaryColor {
+  color: #523BE4;
+}
+.customNav {
+  min-height: 4rem;
+}
+.jumbotron .form-check {
+  color: #523BE4;
+}
+.custom-checkbox .custom-control-label::before {
+  background: transparent;
+  border: 1px solid #523BE4;
+  padding: 0.6rem;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+  background-color: #523BE4;
+  padding: 0.6rem;
+}
+.custom-control-label {
+  color: #523BE4;
+}
+.info h2 {
+  font-weight: bold;
+}
+.info a {
+  color: #523BE4;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+}
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 4rem;
+  }
 }
