@@ -20,6 +20,11 @@ body {
   color: #523BE4 !important;
   text-transform: uppercase;
 }
+.customNav .brand {
+  font-family: 'Merienda', cursive;
+  color: #523BE4;
+  font-size: 2rem;
+}
 .jumbotron .form-check {
   color: #523BE4;
 }
