@@ -59,6 +59,15 @@ body {
 .quote p {
   font-size: 2rem;
 }
+.cards h2 {
+  font-weight: bold;
+}
+.cards a {
+  color: #523BE4;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+}
 @media screen and (min-width: 992px) {
   h1 {
     font-size: 4rem;

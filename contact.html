@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap 4</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link href="img/favicon.png" type="img/png" rel="icon"> -->
+	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link href="css/index.css" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ********* Navbar ********* -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row ">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-light p-0 customNav">
+                        <a class="navbar-brand brand" href="#">Calm Mind</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto border-left align-items-center">
+                            <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="why.html">Why Us</a>
+                            <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Cities</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Help</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto align-items-center border-left">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Spa</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Yoga</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Log In</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ********* Contact ********* -->
+    <div class="container mb-4">
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+        <p class="text-center w-responsive mx-auto mb-5">Please expect at least 3 business days to contact you back. Thank you for your patience.</p>
+        <div class="row">
+            <div class="col-md-12 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ********* Footer ********* -->
+    <div class="container-fluid bg-dark text-center">
+        <p class="py-3 mb-0 text-white" >&copy; Tyson Elfors | For educational purposes only</p>
+    </div>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+</body>
