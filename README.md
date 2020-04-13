@@ -8,7 +8,7 @@ This was a class assingment where I needed to duplicate a layout of an existing 
 
 ## Netlify Link
 
-[Netlify.com](https://lyft.com)
+[te-bootstrap.netlify.com](https://te-bootstrap-spa.netlify.com/)
 
 
 ### Bootstrap Components Used
